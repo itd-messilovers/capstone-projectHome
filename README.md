@@ -7,7 +7,23 @@ own licenses and terms.
 
 Version: `v1.0`  
 Status: `example`
+## Project summary
 
+- **Project question:** Which Pokémon species and types have the strongest base stats, and how do stats differ by type?
+- **Intended audience:** TI2006B classmates and instructor; beginners learning a reproducible data-science workflow.
+- **Data source:** Public Pokémon species, type, and base-stat tables from the community-maintained `veekun/pokedex` repository (downloaded by the notebook; no private data).
+- **Expected output:** A cleaned analysis table and interactive Plotly charts in `notebooks/01-pokemon-go-analysis.ipynb`.
+- **Current limitation:** This is Pokémon GO-inspired teaching data, not Pokémon GO player telemetry. It does not measure accounts, locations, captures, or battles.
+
+## How to start
+
+1. Open `notebooks/01-pokemon-go-analysis.ipynb` in Google Colab or Jupyter.
+2. Run all cells from top to bottom (dependencies are listed in `requirements.txt`).
+3. Read `notebooks/README.md` and `data/README.md` for provenance and limitations.
+
+## Team
+
+Organization: https://github.com/itd-messilovers
 This repository is the persistent home for the project used throughout the
 TI2006B workshop. Keep the repository public unless the instructor explicitly
 authorizes a private alternative. A public repository allows real-time review
